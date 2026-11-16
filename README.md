@@ -66,4 +66,4 @@ The walking check did not count the fall in my first few iterations, and only fa
 
 https://github.com/user-attachments/assets/d3f7d3d9-11d3-4f90-8fb6-804223195942
 
-Running this policy using my local GPU took less time (around 10 minutes), but produced an unexpected result since the robot shuffled instead of taking proper steps. 
+Running this policy using my local GPU took less time (around 10 minutes), but produced an unexpected result since the robot shuffled instead of taking proper steps. I used the same values as the ones in Google Colab, however it still gave me a different result as can be seen in the video above. 
