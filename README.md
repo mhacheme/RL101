@@ -48,8 +48,7 @@ I followed the instructor example and changed only level_feet_weight from 0 to 0
 
 VARIATION_CHECK: 
 
-falls=0/3, 
-
+falls=0/3,
 speed error (m/s), speedMAE=0.015, 
 
 yaw error (rad/s), yawMAE=0.022, 
@@ -62,3 +61,9 @@ The baseline speed was 0.273 m/s and variation speed 0.291 m/s.
 
 ## Limitations
 The walking check did not count the fall in my first few iterations, and only failed due to speed error. This means the check alone can be misleading so we need to verify with the video. 
+
+## Final Walking Policy Using  my Personal Laptop
+
+https://github.com/user-attachments/assets/d3f7d3d9-11d3-4f90-8fb6-804223195942
+
+Running this policy using my local GPU took less time (around 10 minutes), but produced an unexpected result since the robot shuffled instead of taking proper steps. 
