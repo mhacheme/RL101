@@ -63,8 +63,16 @@ The baseline speed was 0.273 m/s and variation speed 0.291 m/s.
 ## Limitations
 The walking check did not count the fall in my first few iterations, and only failed due to speed error. This means the check alone can be misleading so we need to verify with the video. 
 
-## Final Walking Policy Using  my Personal Laptop
+## Final Walking Policy Using my Personal Laptop
 
 https://github.com/user-attachments/assets/d3f7d3d9-11d3-4f90-8fb6-804223195942
 
 Running this policy using my local GPU took less time (around 10 minutes), but produced an unexpected result since the robot shuffled instead of taking proper steps. I used the same values as the ones in Google Colab, however it still gave me a different result as can be seen in the video above. 
+
+I then added the flat feet reward to see if it would help produce a better result and the speed error dropped from 0.086 to 0.018 m/s and the check passed. 
+
+Here is a video of the final walking policy running on my personal laptop:
+
+https://github.com/user-attachments/assets/c2c74991-da92-4694-bcc8-4052689c7604
+
+
