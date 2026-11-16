@@ -45,3 +45,5 @@ Comparing the two results:
 <img width="1478" height="234" alt="image" src="https://github.com/user-attachments/assets/44e5157a-08ca-43ce-8c4f-088896fe4054" />
 The baseline speed was 0.273 m/s and variation speed 0.291 m/s. 
 
+# Limitations
+The walking check did not count the fall in my first few iterations, and only failed due to speed error. This means the check alone can be misleading so we need to verify with the video. 
