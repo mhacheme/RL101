@@ -17,10 +17,14 @@ Without this change, the robot lies down and waddles in the air. A fall is defin
 
 With the default settings, the check printed "FAIL: stayed upright; speed error > 0.05 m/s". Since the robot was laying down, its speed was 0 m/s. By adding the walking_height reward, lying on its side makes the robot lose this reward every step. 
 
-From BASELINE_CHECK:
+BASELINE_CHECK:
+
 falls=0/3, 
+
 speed error (m/s), speedMAE=0.027, 
+
 yaw error (rad/s), yawMAE=0.022, 
+
 mean max drift (m), cross-track=0.096m
 
 # Reward Variation Experiment
@@ -35,10 +39,15 @@ Training result: 12,000 steps in 1013s on Tesla T4.
 https://github.com/user-attachments/assets/0b5c3c97-aa6e-4ae4-944f-7f898876d93a
 
 I followed the instructor example and changed only level_feet_weight from 0 to 0.75. This means having flat feet now counts as a reward and we can see the robot walk a bit faster. 
-From VARIATION_CHECK: 
+
+VARIATION_CHECK: 
+
 falls=0/3, 
+
 speed error (m/s), speedMAE=0.015, 
+
 yaw error (rad/s), yawMAE=0.022, 
+
 mean max drift (m), cross-track=0.006m
 
 Comparing the two results:
