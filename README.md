@@ -35,6 +35,7 @@ Original video:
 https://github.com/user-attachments/assets/509cad72-bd42-4f41-a2e7-d1f5dda73e9a
 
 Reward variation video:
+
 Train: completed in 1032s.
 Training result: 12,000 steps in 1013s on Tesla T4.
 
