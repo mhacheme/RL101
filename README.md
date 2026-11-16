@@ -25,11 +25,13 @@ mean max drift (m), cross-track=0.096m
 
 # Reward Variation Experiment
 Original video:
+
 https://github.com/user-attachments/assets/509cad72-bd42-4f41-a2e7-d1f5dda73e9a
 
 Reward variation video:
 Train: completed in 1032s.
 Training result: 12,000 steps in 1013s on Tesla T4.
+
 https://github.com/user-attachments/assets/0b5c3c97-aa6e-4ae4-944f-7f898876d93a
 
 I followed the instructor example and changed only level_feet_weight from 0 to 0.75. This means having flat feet now counts as a reward and we can see the robot walk a bit faster. 
