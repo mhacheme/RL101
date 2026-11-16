@@ -1,2 +1,2 @@
 # RL101
-RL 101 practice 
+Milene Hacheme RL 101 practice exercises from C263A lectures
