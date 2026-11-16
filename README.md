@@ -6,6 +6,7 @@ Training the BDX-R droid to walk in simulation using reinforcement learning
 # Final walking policy
 Train: completed in 996s.
 Training result: 12,000 steps in 976s on Tesla T4.
+
 https://github.com/user-attachments/assets/4090ea06-182c-4656-a89c-fa6b21fc9a24 
 
 I changed the walking task settings by adding a new reward to ENV_CONFIG, "walking_height": 0.26 (mean torso height). 
