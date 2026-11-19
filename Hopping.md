@@ -44,7 +44,7 @@ Jump 2 | clearance 7.7 cm | flight 0.20 s | fell: False | passed: True
 
 Jump 3 | clearance 7.6 cm | flight 0.20 s | fell: False | passed: True
 
-It seems to also be moving forward slightly.
+It seems to also be moving forward slightly. It also seems to be leaning forward a lot, which could be due to the reward points associated with staying upright and landing, which are much lower than hop height. Also, maybe adding more steps (currently at 6000) could give the droid more time to learn how to hop. 
 
 
 
